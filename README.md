@@ -82,7 +82,7 @@ Interactive charts and insights.
 ---
 
 ### 📫 Connect With Me
-- LinkedIn: (http://www.linkedin.com/in/alay-sakhiya-952b21412)
+- LinkedIn: http://www.linkedin.com/in/alay-sakhiya-952b21412
 - Portfolio: YOUR_PORTFOLIO
 - Email: alaysakhiya@gmail.com
 
