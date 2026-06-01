@@ -54,7 +54,7 @@ Created charts and visualizations using Matplotlib and Seaborn.
 
 ## 📫 Connect With Me
 
-- GitHub: https://github.com/yourusername
+- GitHub: https://github.com/Alaysakhiya 
 - LinkedIn: https://linkedin.com/in/yourprofile
 
 ---
