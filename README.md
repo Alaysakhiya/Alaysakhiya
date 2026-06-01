@@ -1,4 +1,4 @@
-# Hi 👋, I'm Alay
+# Hi 👋, I'm Alay Sakhiya
 
 ## 🚀 Data Science Student | Python Learner
 
