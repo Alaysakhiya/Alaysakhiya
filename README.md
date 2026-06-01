@@ -1,59 +1,70 @@
-## Hi there 👋
+# Hi 👋, I'm Alay
 
-<!--
-**Alaysakhiya/Alaysakhiya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🚀 Data Science Student | Python Learner
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for hel# Hi 👋, I'm [Alay sakhiya]
-
-🎓 Data Science Student  
-🐍 Currently learning Python  
-📊 Interested in Data Science, Machine Learning, and AI  
-🚀 Building projects and improving my coding skills every day
-
-## 🌱 Currently Learning
-
-- Python Programming
-- Data Structures and Algorithms
-- Data Analysis
-- Git & GitHub
-
-## 🛠️ Skills
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
-## 📈 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight)
-
-## 🔥 Streak Stats
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight)
-
-## 📚 Goals for 2026
-
-- Complete Python fundamentals
-- Learn NumPy and Pandas
-- Build Data Science projects
-- Learn Machine Learning
-- Contribute to Open Source
-
-## 📫 Connect With Me
-
-- GitHub: 
-- LinkedIn: Add your LinkedIn profile here
+I'm a Data Science student passionate about:
+- 📊 Data Analysis
+- 🤖 Machine Learning
+- 🐍 Python Programming
+- 📈 Data Visualization
+- 🗄️ Databases & SQL
 
 ---
 
-⭐ "Every expert was once a beginner."p with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Skills
+
+### Programming Languages
+- Python
+- SQL
+- C
+
+### Data Science Tools
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+### Other Tools
+- Git & GitHub
+- Jupyter Notebook
+- VS Code
+
+---
+
+## 📚 Currently Learning
+- Machine Learning
+- Deep Learning
+- Data Structures & Algorithms
+- Statistics for Data Science
+
+---
+
+## 📂 Projects
+### 📊 Student Marks Analysis
+Analyzed student performance data using Python and Pandas.
+
+### 🤖 Machine Learning Model
+Built predictive models using Scikit-learn.
+
+### 📈 Data Visualization Dashboard
+Created charts and visualizations using Matplotlib and Seaborn.
+
+---
+
+## 📫 Connect With Me
+
+- GitHub: https://github.com/yourusername
+- LinkedIn: https://linkedin.com/in/yourprofile
+
+---
+
+## 📈 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact)
+
+---
+
+⭐ Always learning and building projects in Data Science and Python.
