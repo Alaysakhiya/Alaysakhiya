@@ -46,12 +46,6 @@
 
 ---
 
-## 📈 Contribution Graph
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Alaysakhiya&theme=tokyo-night)
-
----
-
 ## 🎯 Current Goals
 
 - 📚 Master Python
