@@ -46,7 +46,7 @@ Here are some ideas to get you started:
 
 ## 📫 Connect With Me
 
-- GitHub: https://github.com/Alaysakhiya
+- GitHub: 
 - LinkedIn: Add your LinkedIn profile here
 
 ---
