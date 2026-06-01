@@ -1,70 +1,90 @@
-# Hi 👋, I'm Alay Sakhiya
+# 👋 Hey, I'm Alay
 
-## 🚀 Data Science Student | Python Learner
+### 🐍 Data Science Student | 📊 Data Analyst in Progress | 🤖 Future ML Engineer
 
-I'm a Data Science student passionate about:
-- 📊 Data Analysis
-- 🤖 Machine Learning
-- 🐍 Python Programming
-- 📈 Data Visualization
-- 🗄️ Databases & SQL
+<img src="https://readme-typing-svg.demolab.com/?lines=Data+Science+Student;Python+Developer;Machine+Learning+Enthusiast;Always+Learning+New+Things&center=true&width=500&height=50">
 
 ---
 
-## 🛠️ Skills
+## 🚀 About Me
 
-### Programming Languages
-- Python
-- SQL
-- C
+🔹 Passionate about Data Science & AI
 
-### Data Science Tools
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
+🔹 Building projects with Python
 
-### Other Tools
-- Git & GitHub
-- Jupyter Notebook
-- VS Code
+🔹 Learning Machine Learning & Statistics
+
+🔹 Exploring real-world datasets
+
+🔹 Goal: Become a Data Scientist
 
 ---
 
-## 📚 Currently Learning
-- Machine Learning
-- Deep Learning
-- Data Structures & Algorithms
-- Statistics for Data Science
+## 🛠️ Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge)
 
 ---
 
-## 📂 Projects
-### 📊 Student Marks Analysis
-Analyzed student performance data using Python and Pandas.
+## 📊 GitHub Stats
 
-### 🤖 Machine Learning Model
-Built predictive models using Scikit-learn.
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Alaysakhiya&show_icons=true&theme=tokyonight)
 
-### 📈 Data Visualization Dashboard
-Created charts and visualizations using Matplotlib and Seaborn.
+![GitHub Streak](https://streak-stats.demolab.com?user=Alaysakhiya&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Alaysakhiya&layout=compact&theme=tokyonight)
 
 ---
 
-## 📫 Connect With Me
+## 🏆 GitHub Trophies
 
-- GitHub: https://github.com/Alaysakhiya 
-- LinkedIn: https://linkedin.com/in/yourprofile
-
----
-
-## 📈 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact)
+![Trophy](https://github-profile-trophy.vercel.app/?username=Alaysakhiya&theme=tokyonight&row=1&column=7)
 
 ---
 
-⭐ Always learning and building projects in Data Science and Python.
+## 📈 Contribution Graph
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Alaysakhiya&theme=tokyo-night)
+
+---
+
+## 🎯 Current Goals
+
+- 📚 Master Python
+- 🤖 Learn Machine Learning
+- 📊 Build Data Science Projects
+- 🧠 Learn Deep Learning
+- 🌍 Contribute to Open Source
+
+---
+
+## 🚀 Featured Projects
+
+### 📊 Data Analysis Project
+Analyze datasets using Pandas and NumPy.
+
+### 🤖 Machine Learning Project
+Prediction models using Scikit-Learn.
+
+### 📈 Visualization Dashboard
+Interactive charts and insights.
+
+---
+
+## 🌟 Quote
+
+> "Data is the new oil, but insights are the real fuel."
+
+---
+
+### 📫 Connect With Me
+
+- LinkedIn: YOUR_LINKEDIN
+- Portfolio: YOUR_PORTFOLIO
+- Email: YOUR_EMAIL
+
+⭐ Thanks for visiting my profile!
