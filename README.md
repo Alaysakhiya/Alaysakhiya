@@ -42,7 +42,7 @@
 
 ## 🏆 GitHub Trophies
 
-![Trophy](https://github-profile-trophy.vercel.app/?username=Alaysakhiya&theme=tokyonight&row=1&column=7)
+![Trophy](https://github-profile-trophy.vercel.app/?Alaysakhiya&theme=tokyonight&row=1&column=7)
 
 ---
 
