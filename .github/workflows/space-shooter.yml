@@ -14,32 +14,50 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+      # 📥 Checkout your repository
       - name: 📥 Checkout Repository
         uses: actions/checkout@v6
         with:
           fetch-depth: 2
 
-      - name: 🚀 Generate Space Shooter
-        uses: czl9707/gh-space-shooter@v2
+      # 🐍 Setup Python
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v6
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          output-path: 'game-original.gif'
-          strategy: 'random'
-          fps: '40'
+          python-version: '3.12'
 
-      - name: 🗓️ Add GitHub-style Month Calendar
+      # 📦 Download Space Shooter source
+      - name: 📦 Download Space Shooter
         run: |
-          python -m pip install --upgrade pillow
+          git clone --branch v2.0.0 --depth 1 \
+            https://github.com/czl9707/gh-space-shooter.git \
+            space-shooter
 
-          python scripts/add_calendar.py \
-            game-original.gif \
-            game.gif
-
-      - name: 🧹 Remove Original
+      # 🛠️ Add month labels to Space Shooter
+      - name: 🗓️ Modify Space Shooter Calendar
         run: |
-          rm -f game-original.gif
+          python scripts/patch_space_shooter.py
 
-      - name: 💾 Commit Game
+      # 📦 Install modified Space Shooter
+      - name: 📦 Install Space Shooter
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ./space-shooter
+
+      # 🚀 Generate modified Space Shooter
+      - name: 🚀 Generate Space Shooter
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh-space-shooter \
+            "${{ github.repository_owner }}" \
+            --output game.gif \
+            --strategy random \
+            --fps 40
+
+      # 💾 Commit game
+      - name: 💾 Commit & Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -49,6 +67,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "🚀 Update Space Shooter calendar"
+            git commit -m "🚀 Update Space Shooter"
             git push
           fi
