@@ -8,7 +8,7 @@ Welcome to my profile repository! I am a full-stack engineer passionate about bu
 
 <p align="center">
   <img 
-    src="https://raw.githubusercontent.com/Alaysakhiya/Python/main/game.gif"
+    src="https://raw.githubusercontent.com/Alaysakhiya/Alaysakhiya/main/game.gif"
     alt="Alay Sakhiya's GitHub Contribution Space Shooter"
     width="100%"
   />
