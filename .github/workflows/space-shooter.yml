@@ -1,9 +1,10 @@
-name: Update Space Shooter Game
+name: 🚀 Update Space Shooter Game
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # daily at midnight UTC
-  workflow_dispatch:        # allows manual trigger from the Actions tab
+    - cron: '0 0 * * *'
+
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -11,26 +12,43 @@ permissions:
 jobs:
   update-game:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-        with:
-          fetch-depth: 2   # required by the action
 
-      - name: Generate space shooter game
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 2
+
+      - name: 🚀 Generate Space Shooter
         uses: czl9707/gh-space-shooter@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          output-path: 'game.gif'
+          output-path: 'game-original.gif'
           strategy: 'random'
+          fps: '40'
 
-      - name: Fetch classic month/day/year contribution calendar
+      - name: 🗓️ Add GitHub-style Month Calendar
         run: |
-          curl -sL "https://ghchart.rshah.org/00C6FF/${{ github.repository_owner }}" -o contribution-calendar.svg
+          python -m pip install --upgrade pillow
 
-      - name: Commit & push both images
+          python scripts/add_calendar.py \
+            game-original.gif \
+            game.gif
+
+      - name: 🧹 Remove Original
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add game.gif contribution-calendar.svg
-          git diff --staged --quiet || git commit -m "Update space shooter game and contribution calendar"
-          git push
+          rm -f game-original.gif
+
+      - name: 💾 Commit Game
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add game.gif
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "🚀 Update Space Shooter calendar"
+            git push
+          fi
