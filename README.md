@@ -14,27 +14,16 @@ Here is an overview of my core skills across different domains, mapped as a cust
 
 ---
 
-## 🎮 Contribution Games
+## 🚀 Space Shooter Game
 
-These animations are automatically updated daily by GitHub Actions using my contribution history.
+This contribution game is automatically updated daily by GitHub Actions using my contribution history.
 
-### 🐍 Snake Game
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Alaysakhiya/Alaysakhiya/output/github-snake-dark.svg">
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Alaysakhiya/Alaysakhiya/output/github-snake.svg" width="100%">
-</picture>
-
-### 🕹️ Pac-Man Game
-<picture>
-  <img alt="GitHub contribution pacman" src="https://raw.githubusercontent.com/Alaysakhiya/Alaysakhiya/output/pacman-contribution-graph.svg" width="100%">
-</picture>
-
-### 🧊 3D Contribution Graph
 <p align="center">
-  <img src="profile-3d-contrib/profile-green-animate.svg" alt="Alay Sakhiya's 3D Contribution Graph" width="100%">
+  <img src="game.gif" alt="Alay Sakhiya's Space Shooter Game" width="100%">
 </p>
 
 ---
+
 
 ## 🛠️ Tech Stack & Tooling
 
