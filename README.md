@@ -4,15 +4,6 @@ Welcome to my profile repository! I am a full-stack engineer passionate about bu
 
 ---
 
-## 📊 My Skill Radar
-
-Here is an overview of my core skills across different domains, mapped as a custom visual chart. Hover over the nodes in the SVG to see the interactive highlights!
-
-<p align="center">
-  <img src="skill-radar.svg" alt="Alay Sakhiya's Skill Radar Chart" width="480px" />
-</p>
-
----
 
 ## 🚀 Space Shooter Game
 
