@@ -12,12 +12,25 @@ jobs:
   update-game:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 2   # required by the action
 
-      - uses: czl9707/gh-space-shooter@v2
+      - name: Generate space shooter game
+        uses: czl9707/gh-space-shooter@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           output-path: 'game.gif'
           strategy: 'random'
+
+      - name: Fetch classic month/day/year contribution calendar
+        run: |
+          curl -sL "https://ghchart.rshah.org/00C6FF/${{ github.repository_owner }}" -o contribution-calendar.svg
+
+      - name: Commit & push both images
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add game.gif contribution-calendar.svg
+          git diff --staged --quiet || git commit -m "Update space shooter game and contribution calendar"
+          git push
