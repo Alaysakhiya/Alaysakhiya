@@ -10,21 +10,6 @@
 
 </div>
 
-<!-- ===== SOCIAL LINKS ===== -->
-<p align="center">
-  <a href="https://www.linkedin.com/in/alay-sakhiya-952b21412/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://github.com/Alaysakhiya">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="mailto:alaysakhiya525@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-</p>
-
-<br/>
-
 <!-- ===== FACE / PROFILE BANNER WITH CODING GIF ===== -->
 <div align="center">
 
@@ -63,9 +48,9 @@
 
 ### Skills &amp; Technologies
 
-<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,sklearn,pandas,numpy,jupyter,anaconda,git,github,vscode,mysql&theme=dark" alt="Skills"/>
+<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,sklearn,pandas,numpy,jupyter,anaconda,git,github,vscode,mysql,html,css,js,c&theme=dark" alt="Skills"/>
 
-<br/><br/>
+<br/>
 
 <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="ML"/>
 <img src="https://img.shields.io/badge/Deep%20Learning-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="DL"/>
@@ -112,9 +97,36 @@
 <!-- ===== TROPHIES ===== -->
 <div align="center">
 
-### GitHub Trophies
+### 🏆 GitHub Trophies
 
-<img src="https://github-profile-trophy.vercel.app/?username=Alaysakhiya&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Alaysakhiya&theme=algolia&no-frame=true&no-bg=true&column=4&row=2&margin-w=8&margin-h=8&title=MultipleLang,Commits,Repositories,Stars,Followers,Issues,PullRequest,Reviews" alt="Trophies"/>
+
+</div>
+
+<br/>
+
+<!-- ===== CONNECT / CONTACT ===== -->
+<div align="center">
+
+### 📫 Connect With Me
+
+<a href="https://www.linkedin.com/in/alay-sakhiya-952b21412/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="https://github.com/Alaysakhiya">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+<a href="mailto:alaysakhiya525@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+</a>
+<a href="https://wa.me/919662600525">
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+</a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/📞%20Contact-+91%209662600525-6366F1?style=for-the-badge" alt="Phone"/>
+<img src="https://img.shields.io/badge/📧%20Email-alaysakhiya525@gmail.com-D14836?style=for-the-badge" alt="Email"/>
 
 </div>
 
