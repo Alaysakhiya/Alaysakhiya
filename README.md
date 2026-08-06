@@ -1,8 +1,28 @@
-# Hi there! I'm Alay Sakhiya <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7W/giphy.gif" width="28">
+<div align="center">
 
-Welcome to my profile repository! I am a full-stack engineer passionate about building visually stunning, high-performance web applications and solving complex engineering challenges.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:06B6D4&height=220&section=header&text=Alay%20Sakhiya&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20%2F%20ML%20%26%20Data%20Science%20Enthusiast&descAlignY=55&descSize=20" width="100%"/>
 
----
+</div>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/alay-sakhiya-952b21412/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/Alaysakhiya">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:alaysakhiya525@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="55%"/>
+</p>
+
+<br/>
 
 ## 🚀 GitHub Contribution Space Shooter
 
@@ -19,63 +39,9 @@ Welcome to my profile repository! I am a full-stack engineer passionate about bu
 </p>
 
 <p align="center">
-  <sub>⚡ Automatically generated and updated using GitHub Actions</sub>
+  <sub>⚡ Automatically generated and updated daily using GitHub Actions</sub>
 </p>
 
----
+<br/>
 
-## 🛠️ Tech Stack & Tooling
-
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,html,css,tailwind,nodejs,express,mongodb,postgres,python,django,fastapi,docker,aws,git,github,vscode,figma" />
-  </a>
-</p>
-
----
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=Alaysakhiya&show_icons=true&theme=tokyonight&count_private=true" 
-    alt="Alay's GitHub Stats" 
-    height="180px"
-  />
-
-  <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alaysakhiya&layout=compact&theme=tokyonight" 
-    alt="Top Languages" 
-    height="180px"
-  />
-</p>
-
----
-
-## 📬 Connect with Me
-
-<p align="center">
-
-<a href="https://linkedin.com/in/alaysakhiya">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<a href="https://alaysakhiya.dev">
-  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=white" />
-</a>
-
-<a href="mailto:alay.sakhiya@example.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-</p>
-
----
-
-<p align="center">
-
-### 🚀 Keep Building • Keep Learning • Keep Coding
-
-<img src="https://komarev.com/ghpvc/?username=Alaysakhiya&style=for-the-badge&color=00C6FF" />
-
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,100:6366F1&height=100&section=footer" width="100%"/>
