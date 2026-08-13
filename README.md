@@ -62,15 +62,13 @@
 <br/>
 
 <!-- ===== GITHUB CONTRIBUTION SPACE SHOOTER ===== -->
-<div align="center">
+# Space Shooter
 
-### GitHub Contribution Space Shooter
+An automatically updated GitHub activity game generated with Space Shooter.
 
-<img src="https://raw.githubusercontent.com/Alaysakhiya/Alaysakhiya/main/game.gif" width="100%" alt="GitHub Contribution Space Shooter"/>
+![Space Shooter](./game.gif)
 
-<sub><i>This game is generated daily using GitHub Actions from my contribution graph.</i></sub>
-
-</div>
+Last updated: 2026-08-13
 
 <br/>
 
