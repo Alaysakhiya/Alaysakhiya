@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  update-game:
+  update:
     runs-on: ubuntu-latest
 
     steps:
@@ -33,8 +33,6 @@ jobs:
           python -m pip install -e ./space-shooter
 
       - name: Generate game
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh-space-shooter \
             "${{ github.repository_owner }}" \
@@ -42,15 +40,41 @@ jobs:
             --strategy random \
             --fps 40
 
-      - name: Commit changes
+      - name: Update README
+        run: |
+          python - <<'PY'
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          readme = Path("README.md")
+          text = readme.read_text()
+
+          marker = "Last updated: "
+          date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+          line = f"Last updated: {date}"
+
+          if marker in text:
+              lines = text.splitlines()
+              text = "\n".join(
+                  line if item.startswith(marker) else item
+                  for item in lines
+              ) + "\n"
+          else:
+              text += f"\n{line}\n"
+
+          readme.write_text(text)
+          PY
+
+      - name: Commit updates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add game.gif
+
+          git add game.gif README.md
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update Space Shooter"
+            git commit -m "Update Space Shooter and README"
             git push
           fi
