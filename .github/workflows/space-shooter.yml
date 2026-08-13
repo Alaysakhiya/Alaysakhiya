@@ -1,38 +1,47 @@
-name: Update Space Shooter
+name: 🚀 Update Space Shooter Game
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: '0 0 * * *'
+
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update:
+  update-game:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: 📥 Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
-      - name: Setup Python
+      - name: 🐍 Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: '3.12'
 
-      - name: Download latest Space Shooter
+      - name: 📦 Download Space Shooter
         run: |
-          git clone --depth 1 \
+          git clone --branch v2.0.0 --depth 1 \
             https://github.com/czl9707/gh-space-shooter.git \
             space-shooter
 
-      - name: Install Space Shooter
+      - name: 🛠️ Add month labels to Space Shooter
+        run: |
+          python scripts/patch_space_shooter.py
+
+      - name: 📦 Install modified Space Shooter
         run: |
           python -m pip install --upgrade pip
           python -m pip install -e ./space-shooter
 
-      - name: Generate game
+      - name: 🚀 Generate modified Space Shooter
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh-space-shooter \
             "${{ github.repository_owner }}" \
@@ -40,41 +49,16 @@ jobs:
             --strategy random \
             --fps 40
 
-      - name: Update README
-        run: |
-          python - <<'PY'
-          from datetime import datetime, timezone
-          from pathlib import Path
-
-          readme = Path("README.md")
-          text = readme.read_text()
-
-          marker = "Last updated: "
-          date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-          line = f"Last updated: {date}"
-
-          if marker in text:
-              lines = text.splitlines()
-              text = "\n".join(
-                  line if item.startswith(marker) else item
-                  for item in lines
-              ) + "\n"
-          else:
-              text += f"\n{line}\n"
-
-          readme.write_text(text)
-          PY
-
-      - name: Commit updates
+      - name: 💾 Commit & Push
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add game.gif README.md
+          git add game.gif
 
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
           else
-            git commit -m "Update Space Shooter and README"
+            git commit -m "🚀 Update Space Shooter"
             git push
           fi
