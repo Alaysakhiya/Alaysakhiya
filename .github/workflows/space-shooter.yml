@@ -1,16 +1,12 @@
-name: Update Space Shooter Game
+name: Update Space Shooter
 
 on:
-  schedule:
-    - cron: "0 0 * * *" # Runs daily at midnight UTC
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
 
 permissions:
   contents: write
-
-concurrency:
-  group: update-space-shooter
-  cancel-in-progress: true
 
 jobs:
   update-game:
@@ -19,8 +15,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -29,20 +23,16 @@ jobs:
 
       - name: Download latest Space Shooter
         run: |
-          rm -rf space-shooter
           git clone --depth 1 \
             https://github.com/czl9707/gh-space-shooter.git \
             space-shooter
-
-      - name: Modify Space Shooter Calendar
-        run: python scripts/patch_space_shooter.py
 
       - name: Install Space Shooter
         run: |
           python -m pip install --upgrade pip
           python -m pip install -e ./space-shooter
 
-      - name: Generate Space Shooter
+      - name: Generate game
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -52,15 +42,14 @@ jobs:
             --strategy random \
             --fps 40
 
-      - name: Commit and push changes
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add game.gif
 
           if git diff --cached --quiet; then
-            echo "No changes to commit."
+            echo "No changes to commit"
           else
             git commit -m "Update Space Shooter"
             git push
