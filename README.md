@@ -59,18 +59,6 @@
 
 <div align="center">
 
-### GitHub Contribution Space Shooter
-
-<img src="https://raw.githubusercontent.com/Alaysakhiya/Alaysakhiya/main/game.gif" width="100%" alt="GitHub Contribution Space Shooter"/>
-
-<sub><i>This game is generated daily using GitHub Actions from my contribution graph.</i></sub>
-
-</div>
-
-<br/>
-
-<div align="center">
-
 ### GitHub Statistics
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Alaysakhiya&show_icons=true&theme=react&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=06B6D4&text_color=ffffff" alt="GitHub Stats"/>
